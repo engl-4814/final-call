@@ -11,7 +11,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 600;
   margin-bottom: 5px;
-  margin-left: -3px;
+  margin-left: -10px;
 }
 
 .main-nav ul {
@@ -20,11 +20,18 @@ h1 {
   gap: 20px;
   list-style: none;
   margin-bottom: 5px;
-  margin-left: -41px;
+  margin-left: -50px;
   margin-top: 5px;
 }
 
-li a {
+.main-nav a {
+  color: white;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-nav a {
   color: white;
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 0.8rem;
@@ -125,17 +132,16 @@ footer a {
   }
 
   header h1 {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     margin-bottom: 20px;
   }
 
-  nav {
-    margin-top: 16px;
-    margin-bottom: 20px;
+  .main-nav {
+    margin-top: 17px;
   }
 
-  nav a {
-    font-size: 1rem;
+  .main-nav a {
+    font-size: 1.2rem;
   }
 
   .quick-intro {
@@ -146,7 +152,6 @@ footer a {
     grid-row: 2 / 9;
     margin-bottom: 30px;
     margin-left: 30px;
-
   }
 
   .quick-intro p {
@@ -161,12 +166,16 @@ footer a {
     flex-direction: row;
     gap: 20px;
   }
+
+  .footer-nav a {
+    font-size: 1rem;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 755px) {
 
   header h1 {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
 
   .main-nav {
