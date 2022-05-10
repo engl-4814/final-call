@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Sorts+Mill+Goudy&display=swap');
 
+/* General Styles and Mobile-First Design */
+
 body {
   background-color:#E7530B;
   color: white;
@@ -14,6 +16,8 @@ h1 {
   margin-left: -11px;
 }
 
+/* nav in header */ 
+
 .main-nav ul {
   display: flex;
   flex-direction: row;
@@ -24,6 +28,8 @@ h1 {
   margin-top: 5px;
 }
 
+/* nav in header */ 
+
 .main-nav a {
   color: white;
   font-family: 'Sorts Mill Goudy', serif;
@@ -31,6 +37,8 @@ h1 {
   font-weight: 400;
   text-decoration: none;
 }
+
+/* "projects" header */ 
 
 .projects h3 {
   color: white;
@@ -40,14 +48,20 @@ h1 {
   margin-left: -7px;
 }
 
+/* list of projects */ 
+
 .projects-list {
   list-style: none;
 }
+
+/* list of projects */ 
 
 .projects-list li {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+
+/* list of projects */ 
 
 .projects-list a {
   color: white;
@@ -57,10 +71,14 @@ h1 {
   text-decoration: none;
 }
 
+/* "publications" section */
+
 .publications {
   padding-bottom: 100px;
   margin-bottom: 100px;
 }
+
+/* "publications" header */
 
 .publications h3 {
   color: white;
@@ -70,14 +88,20 @@ h1 {
   margin-left: -7px;
 }
 
+/* list of publications */
+
 .publications-list {
   list-style: none;
 }
+
+/* list of publications */
 
 .publications-list li {
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
+
+/* list of publications */
 
 .publications-list a {
   color: white;
@@ -86,6 +110,8 @@ h1 {
   font-weight: 400;
   text-decoration: none;
 }
+
+/* header in footer */ 
 
 h2 {
   font-family: 'Roboto', sans-serif;
@@ -124,9 +150,14 @@ footer {
   text-decoration: none;
 }
 
+/* hover color for all links */ 
+
 a:hover {
   color: grey;
 }
+
+/* Tablet Styles */
+
 
 @media screen and (min-width: 600px) {
 
@@ -194,6 +225,8 @@ a:hover {
     font-size: 1rem;
   }
 }
+
+/* Desktop Styles */
 
 @media screen and (min-width: 755px) {
 

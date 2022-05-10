@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Sorts+Mill+Goudy&display=swap');
 
+/* General Styles and Mobile-First Design */
+
 body {
   background-color: #F6EEEA;
   color: black;
@@ -18,6 +20,8 @@ h1 {
   margin-left: -11px;
 }
 
+/* nav in header */ 
+
 .main-nav ul {
   display: flex;
   flex-direction: row;
@@ -27,6 +31,8 @@ h1 {
   margin-left: -49px;
   margin-top: 12px;
 }
+
+/* nav in header */ 
 
 .main-nav a {
   color: black;
@@ -46,6 +52,8 @@ main img {
   padding: 0px;
 }
 
+/* "Hi, I'm Kylie!" */ 
+
 .hello { 
   color: #E7530B;
   font-size: 2.5rem;
@@ -55,6 +63,8 @@ main img {
   margin-left: -8px;
   margin-top: 20px;
 }
+
+/* body paragraph "I am a technical writer from...*/ 
 
 .about-paragraph {
   font-family: 'Sorts Mill Goudy', serif;;
@@ -99,9 +109,13 @@ footer a {
   text-decoration: none;
 }
 
+/* hover color for all links */ 
+
 a:hover {
   color: grey;
 }
+
+/* Tablet Styles */
 
 @media screen and (min-width: 600px) {
 
@@ -126,6 +140,8 @@ a:hover {
     grid-area: header;
   }
 
+  /* nav in header */ 
+
   .main-nav {
     grid-area: nav;
   }
@@ -148,9 +164,13 @@ a:hover {
     margin-top: 13px;
   }
 
+  /* nav in header */ 
+
   .main-nav {
     margin-top: 20px;
   }
+
+  /* nav in header */ 
 
   .main-nav a {
     font-size: 1.2rem;
@@ -171,6 +191,8 @@ a:hover {
   }
 }
 
+/* Desktop Styles */
+
 @media screen and (min-width: 755px) {
 
   .container {
@@ -179,15 +201,21 @@ a:hover {
     justify-content: flex-end;
   }
 
+  /* main image */ 
+  
   .headshot {
     padding-left: 80px;
   }
+
+  /* "Hi, I'm Kylie!" */ 
 
   .hello {
     padding-left: 38px;
     padding-right: 80px;
     margin-top: -17px;
   }
+
+  /* body paragraph "I am a technical writer from...*/ 
 
   .about-paragraph {
     font-size: 1.1rem;
